@@ -1,0 +1,16 @@
+{
+  "name": "de1-emulator",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:LukasBombach/de1-emulator.git",
+  "author": "Lukas Bombach <lukas.bombach@googlemail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bleno": "github:notjosh/bleno#inject-bindings",
+    "bleno-mac": "github:notjosh/bleno-mac",
+    "xpc-connection": "sandeepmistry/node-xpc-connection#pull/26/head"
+  },
+  "resolutions": {
+    "xpc-connection": "sandeepmistry/node-xpc-connection#pull/26/head"
+  }
+}
