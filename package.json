@@ -5,6 +5,9 @@
   "repository": "git@github.com:LukasBombach/de1-emulator.git",
   "author": "Lukas Bombach <lukas.bombach@googlemail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
   "dependencies": {
     "bleno": "github:notjosh/bleno#inject-bindings",
     "bleno-mac": "github:notjosh/bleno-mac",

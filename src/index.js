@@ -1,8 +1,6 @@
 const bleno = require("bleno-mac");
-
-var BlenoPrimaryService = bleno.PrimaryService;
-
-var EchoCharacteristic = require("./characteristic");
+const EchoCharacteristic = require("./characteristic");
+const BlenoPrimaryService = bleno.PrimaryService;
 
 console.log("bleno - echo");
 
